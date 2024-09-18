@@ -1,0 +1,18 @@
+server:
+  port: 4000
+
+cloudinary:
+  cloud_name: <cloud-name>
+  api_key: <cloud-api-key>
+  api_secret: <cloud-api-secret>
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: <db-pswd>
+    url: jdbc:mysql://localhost:3307/<db-name>
+    username: <db-username>
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
